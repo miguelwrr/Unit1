@@ -20,12 +20,11 @@ public class Exersice06 {
 		//User is asked for the second number
 		System.out.print("Introduce the second number: ");
 		num2 = scanner.nextInt();
-		
 		//All operations are printed
 		System.out.println("Addition: " + (num1 + num2));
 		System.out.println("Substraction: " + (num1 - num2));
 		System.out.println("Multiplication: " + (num1 * num2));
-		System.out.println("Division: " + (num1 / num2));
+		System.out.println("Division: " + (num1 * 1.0 / num2));
 		
 		//Scanner is closed
 		scanner.close();
