@@ -6,9 +6,13 @@ public class Exersice04 {
 
 	public static void main(String[] args) {
 
-		//Variables are declared
+		//grade1 variable
 		int grade1;
+		
+		//grade2 variable
 		int grade2;
+		
+		//average variable 
 		double avg;
 		
 		//Scanner object is created

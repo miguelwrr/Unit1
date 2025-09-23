@@ -6,7 +6,7 @@ public class Exersice02 {
 	
 	public static void main(String[] args) {
 		
-		//Variable is declared
+		//Age variable is declared
 		int age;
 		
 		//Scanner object is created

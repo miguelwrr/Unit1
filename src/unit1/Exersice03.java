@@ -5,9 +5,13 @@ import java.util.Scanner;
 public class Exersice03 {
 
 	public static void main(String[] args) {
-		//Variables are declared
+		//currentYear variable
 		int currentYear;
+
+		//birthYear variable
 		int birthYear;
+		
+		//age variable
 		int age;
 		
 		//Scanner object is created
