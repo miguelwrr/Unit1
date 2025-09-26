@@ -20,17 +20,17 @@ public class Exersice10 {
 		number = scanner.nextInt();
 
 		// It is determined whether the number is even or odd
-		isEven = (number % 2 == 0) ? true : false;
+		isEven = number % 2 == 0;
 
-		// Default message is printed
-		System.out.printf("The number %d is ", number);
+		// Message is printed
+		System.out.printf("The number %d is %s", number, isEven ? "even." : "odd.");
 
-		// 'even' or 'odd' is printed
-		if (isEven) {
-			System.out.print("even.");
-		} else {
-			System.out.print("odd.");
-		}
+//		// 'even' or 'odd' is printed
+//		if (isEven) {
+//			System.out.print("even.");
+//		} else {
+//			System.out.print("odd.");
+//		}
 
 		// Scanner is closed.
 		scanner.close();

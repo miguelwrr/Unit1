@@ -24,15 +24,12 @@ public class Exersice14 {
 		System.out.print("Introduce the third term grade: ");
 		term3 = scanner.nextInt();
 		
-		average = (term1 + term2 + term3) * 1.0 / 3;
+		average = (term1 + term2 + term3)  / 3.0;
 		
 		avgOnPaper = (int) Math.round(average);
 		
 		System.out.printf("Average on paper: %d\n", avgOnPaper);
 		System.out.printf("Real average: %f", average);
-		
-		
-		
 		
 		
 		scanner.close();
