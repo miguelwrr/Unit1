@@ -17,7 +17,8 @@ public class Exersice10 {
 		year = reader.nextInt();
 		
 		//Century is calculated
-		century = year/100+1;
+		century = year%100==0 ? year/100 : year/100+1;
+	
 		
 		//Output message
 		System.out.printf("Year %d belongs to century %d.", year, century);
